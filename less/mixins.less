@@ -1,49 +1,16 @@
 // Mixins Here
 
-
-
-.rnd-center(@radius: 12px){
-    position: relative;
-    display:flex;
-      border-radius:@radius;
-      border:2px ridge @border-real;
-      margin:5px;
-      justify-content: center;
-  }
-  
-  .navFonts(){
-    font-size: 2.1rem;
-    color:@nav-font;
-  }
-  
-  .btn-mix(rest; @wid) {
-    .navFonts;
-    background: @btn-bg-color;
-    width:@wid;
-    height:50px;
-  }
-  
-  .btn-mix(act; @wid) {
-    .navFonts;
-    left:5px;
-    width:@wid; 
-  }
-  
-  @btn-rest: rest;
-  @btn-act: act;
-  
-
-  .flex-wrap {
-	display: flex;
-	flex-wrap: wrap;
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .btn-style (@bg, @tc) {
-	background-color: @bg;
-	color: @tc;
+  background-color: @bg;
+  color: @tc;
 }
 
 .btn-hover (@bg, @tc) {
-	background-color: @bg;
-	color: @tc;
+  background-color: @bg;
+  color: @tc;
 }
