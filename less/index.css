@@ -360,4 +360,11 @@ footer {
     width: 100%;
   }
 }
-/*# sourceMappingURL=index.css.map */
+img {
+  transform: all 1s ease-in-out;
+  opacity: 0.7;
+}
+img:hover {
+  transform: all 1s ease-in-out;
+  opacity: 1;
+}
