@@ -1,1 +1,17 @@
 // Mixins Here
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-style (@bg, @tc) {
+  background-color: @bg;
+  color: @tc;
+}
+
+.btn-hover (@bg, @tc) {
+  transform:all 1s ease-in-out;
+  background-color: @bg;
+  color: @tc;
+}
